@@ -1,0 +1,111 @@
+body{  
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    background-color: rgb(15, 97, 132)
+    
+    
+}
+
+span{
+    color: red;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    margin:25%;
+    padding: 2%;
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    
+}
+
+h1 {
+
+    text-align: center;
+    margin: 30px 20px;
+    padding: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 29px;
+    
+   
+}
+h4 {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 10px;
+  
+}
+
+#tinggiBadan {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    margin: 5px 20px;  
+    
+}
+
+#beratBadan {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    margin: 5px 20px;  
+   
+}
+#tinggiInput {
+    margin: 5px 20px;
+    height: 5%;  
+    width: 90%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#beratInput {
+    margin: 5px 20px;  
+    height: 5%;  
+    width: 90%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+} 
+
+#btn {
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    background: #2B91EF;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin: 5px 20px; 
+    width: 100px;
+    height: 30px
+}
+
+#resultAngka {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    margin: 20px 10px;
+    
+}
+

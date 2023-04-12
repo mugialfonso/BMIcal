@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+   
+</head>
+<body>
+    <div class="wrapper">
+        <h1>BMI Calculator</h1>
+        <h4>Masuki Tinggi dan Berat badan anda untuk mengetahui hasil dari BMI anda</h4>
+
+        <p id="tinggiBadan">Masukan Tinggi badan anda (CM)</p>
+        <input type="text" id="tinggiInput"><span id="tinggiError" ></span>
+
+        <p id="beratBadan">Masukan Berat badan anda (KG)</p>
+        <input type="text" id="beratInput"><span id="beratError" ></span>
+
+        <button id="btn">Hitung</button>
+        <h4>Hasil : </h4>
+
+        <p id="resultAngka"></p>
+    </div>
+    <script src="bmi.js">
+    </script>
+</body>
+</html>
